@@ -5,6 +5,8 @@ _Contrucción página web mediante tutorial de freecodecamp con bootstrap_
 ## Comenzando 🚀
 _En esta página se encuentran las secciones principales para iniciar con una página de muestra de portafolio de servicios._
 
+-Puedes encontrar el tutorial en el siguiente link [Ir a YouTube](https://www.youtube.com/watch?v=QCw0L6FupQ0)
+
 
 ## Pre-requisitos 📋
 - No existen requerimientos
