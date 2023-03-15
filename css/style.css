@@ -3,10 +3,12 @@
     padding: 2rem;
     background-color: #f5f6f7;
 }
+
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
+
 /* Styles general */
 section {
     display: flex;
@@ -14,71 +16,88 @@ section {
     align-items: center;
     justify-content: center;
 }
+
 h1 {
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
 }
+
 .section-dark {
     color: #f5f6f7;
     background-color: #1b1b32;
 }
+
 .section-light {
     color: #1b1b32;
     background-color: #f5f6f7;
 }
+
 .section-title {
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Rubik Dirt', cursive;
 }
+
 .section-description {
     font-size: 1.2rem;
     color: #584e4e;
 }
+
 .section-text {
     font-size: 1.2rem;
 }
+
 .btn-info {
     font-size: 1.1rem;
     margin: 20px;
 }
+
 .text-dark {
     color: black;
 }
+
 .text-light {
     color: white;
 }
+
 /* Seccion Hero */
 .hero {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
 }
+
 .hero-principal {
     padding: 3rem;
 }
+
 .hero-image-main {
     width: 200px;
     height: 200px;
     margin: 20px;
 }
+
 .hero-principal h2 {
     font-size: 1.5rem;
     color: #615151;
 }
+
 /* Seccion About-me */
 .about-me {
     height: 500px;
     padding: 10px;
 }
+
 .about-me .contenedor {
     max-width: 600px;
     text-align: center;
 }
+
 /* Exprience */
 .experience {
     padding: 40px 40px 60px 40px;
 }
+
 .experience .column {
     padding: 20px;
     border: 2px solid #8080804d;
@@ -88,15 +107,18 @@ h1 {
     justify-content: space-evenly;
     transition: 0.02s ease-in;
 }
+
 .experience .column:hover {
     color: white;
     background-color: #1b1b32;
 }
+
 .experience-title {
     font-size: 25px;
     font-weight: bold;
     margin: 10px 0;
 }
+
 .experience i {
     font-size: 2.5rem;
     color: #7ade30;
@@ -104,18 +126,22 @@ h1 {
     padding: 8px 19px;
     border-radius: 50%;
 }
+
 .badges-container {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
+
 .badges {
     margin: 5px;
 }
+
 /* Projects */
 .projects {
     padding: 40px;
 }
+
 .projects img {
     height: 100%;
     width: 100%;
@@ -124,10 +150,12 @@ h1 {
     display: block;
     transition: all 0.2s ease;
 }
+
 .projects-container {
     padding-top: 60px;
     margin-bottom: 40px;
 }
+
 .overlay {
     transition: all 0.2s ease;
     opacity: 0;
@@ -137,46 +165,244 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .overlay p {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
 }
+
 .overlay .icons-container {
     display: flex;
 }
+
 .overlay i {
     color: black;
     font-size: 60px;
     margin: 10px;
 }
+
 .project {
     position: relative;
 }
+
 .project:hover img {
     opacity: 0.2;
 }
+
 .project:hover .overlay {
     opacity: 1;
 
 }
 
+/* Seccion Articles */
+.articles {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articles .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articles .card-header {
+    font-weight: bold;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonials .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonials-text {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonials-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonials-info p {
+    margin-bottom: 0;
+}
+
+.testimonials-info .client {
+    font-size: 1.2rem;
+}
+
+.testimonials-info .post {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* Contact */
+.contact .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .description {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact .button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact .button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact .button:hover i {
+    color: black;
+}
+
+/* Footer */
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.social-media-icons a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-icons a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.social-media-icons i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-icons a:hover i {
+    color: black;
+}
+
+/* Derechos de autor */
+.author-d {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
 
 /* Responsive */
-@media screen and {max-width: 400px;
+@media screen and (max-width: 400px) {
     .overlay p {
         font-size: 18px;
     }
+
     .overlay i {
         font-size: 40px;
     }
+    .section-text {
+        font-size: 18px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
 }
-@media screen and (max-width:767px) {
+
+@media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
     }
 }
-@media screen and (min-width:700px) {
+
+@media screen and (max-width: 800px) {
+    .testimonials-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonials-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 700px) {
     .hero-image-down {
         max-width: 600px;
     }
