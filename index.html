@@ -13,7 +13,7 @@
     <!--Title-->
     <title>Portafolio Andrés Ocaña</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link class="logo" rel="icon" type="image/x-icon" href="img/logo.png">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -31,7 +31,7 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" width="50" alt="Logo de la pagina web">
+                    <img class="logo" src="./img/logo.png" width="80" alt="Logo de la pagina web">
                 </a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
@@ -61,12 +61,12 @@
     <!--Seccion Hero-->
     <section class="hero align-items-stretch">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-            <img class="hero-image-main rounded-circle" src="img/desarrollador-ejemplo.svg"
+            <img class="hero-image-main rounded-circle" src="img/desarrollador-ejemplo.jpg"
                 alt="fotografia de Andres Ocaña">
             <h1>
                 Hola, soy Andrés Ocaña
             </h1>
-            <h2>Portafolio de servicios</h2>
+            <h2>Este es mí portafolio</h2>
         </div>
         <div class="hero-inferior">
             <img class="hero-image-down img-fluid" src="img/hero-inferior.svg"
@@ -76,55 +76,61 @@
     <!--About me-->
     <section id="about-me" class="about-me section-dark">
         <div class="contenedor">
-            <h2 class="section-title">Conoce a Andrés Ocaña</h2>
-            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae congue justo.
-                Vestibulum gravida, felis eget malesuada lobortis, odio lorem faucibus mauris, vitae tempor mauris ipsum
-                a tellus. Mauris porta nisl et ipsum lacinia lacinia. Etiam maximus ligula odio, et elementum nisl
-                laoreet eu. Morbi in mauris semper, lobortis lorem vitae, sodales dolor. Sed ipsum justo, porttitor
-                semper ipsum sed, luctus rhoncus leo. Maecenas velit tortor, ultrices a libero non, pharetra congue ex.
-                Nam ut condimentum libero. Nunc viverra est id mollis egestas. Vivamus a maximus nisi, a molestie odio.
-                Ut mattis tortor nec arcu ornare ultrices eget ut ex. Morbi eget diam imperdiet, placerat ex non,
-                efficitur erat.</p>
+            <h2 class="section-title">Acerca de Andrés Ocaña</h2>
+            <p class="section-text">Soy un ingeniero de sistemas con experiencia en el campo, enfocado en desarrolarme
+                como programador. Tengo habilidades en tecnologías como C, Python, HTML, React, JavaScript, MongoDB,
+                MySQL y GitHub, adquiridas a través de una formación práctica e intensiva de 9 meses, dedicando al menos
+                60 horas semanales. Busco una oportunidad en un entorno laboral real para aplicar mis habilidades y
+                conocimientos, aportar valor a una organización y continuar creciendo como programador en el sector de
+                la tecnología de la información.</p>
         </div>
     </section>
     <!--Experience-->
     <section id="experience" class="experience section-light">
         <div class="container text-center">
+            <h2 class="section-title">Estudios</h2>
+            <h3 class="section-description">Estos son algunos estudios que he realizado</h3>
             <div class="row">
-                <!--Develop web-->
+                <!--Especialización-->
                 <div class="column col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experience-title">Desarrollo web</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae congue justo. Vestibulum
-                        gravida, felis eget malesuada lobortis</p>
+                    <img class="experience-img rounded-circle" src="img/estudios1.png" alt="Especialización Informática Educativa">
+                    <p class="experience-title">ESPECIALISTA EN INFORMATICA EDUCATIVA</p>
+                    <p>Febrero 2017 – Junio 2018</p>
+                    <p>Especialización realizada en la fundación universitaria Área Andina en modalidad virtual con un periodo de duración de un año.</p>
+                    <p><strong>Skills:</strong></p>
                     <div class="badges-container">
                         <span class="badge text-bg-primary">Html</span>
                         <span class="badge text-bg-primary">Css</span>
-                        <span class="badge text-bg-primary">Javascript</span>
-                        <span class="badge text-bg-primary">Laravel</span>
+                        <span class="badge text-bg-primary">Moodle</span>
+                        <span class="badge text-bg-primary">Pedagogía</span>
                     </div>
                 </div>
-                <!--Articles-->
+                <!--Carrera-->
                 <div class="column col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experience-title">Articulos</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae congue justo. Vestibulum
-                        gravida, felis eget malesuada lobortis</p>
+                    <img class="experience-img rounded-circle" src="img/estudios2.png" alt="Carrera Ingeniero de Sistemas">
+                    <p class="experience-title">INGENIERO DE SISTEMAS</p>
+                    <p>Agosto 2004 - Diciembre 2009</p>
+                    <p>Carrera profesional realizada en el centro de estudios superiores CESMAG en modalidad presencial con un periodo de duración de 5 años.</p>
+                    <p><strong>Skills:</strong></p>
                     <div class="badges-container">
-                        <span class="badge text-bg-primary">Escribir</span>
-                        <span class="badge text-bg-primary">Editar</span>
-                        <span class="badge text-bg-primary">Blogs</span>
+                        <span class="badge text-bg-primary">Html</span>
+                        <span class="badge text-bg-primary">Css</span>
+                        <span class="badge text-bg-primary">Bases de datos</span>
+                        <span class="badge text-bg-primary">C</span>
                     </div>
                 </div>
-                <!--Estudent-->
+                <!--Curso-->
                 <div class="column col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experience-title">Estudios</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae congue justo. Vestibulum
-                        gravida, felis eget malesuada lobortis</p>
+                    <img class="experience-img rounded-circle" src="img/estudios3.png" alt="Especialización Informática Educativa">
+                    <p class="experience-title">SOFTWARE FUNDATIONS</p>
+                    <p>Febrero 2022 - Noviembre 2022</p>
+                    <p>Curso sobre programación basica realizada en Holberton School en modalidad virtual con un periodo de duración de 9 meses, 60 horas semanales.</p>
+                    <p><strong>Skills:</strong></p>
                     <div class="badges-container">
                         <span class="badge text-bg-primary">Desarrollo web</span>
-                        <span class="badge text-bg-primary">Laravel</span>
+                        <span class="badge text-bg-primary">C</span>
+                        <span class="badge text-bg-primary">Python</span>
+                        <span class="badge text-bg-primary">MySQL</span>
                         <span class="badge text-bg-primary">GitHub</span>
                     </div>
                 </div>
@@ -143,15 +149,10 @@
                     <div class="project">
                         <img src="img/proyecto1.png" alt="Primer proyecto">
                         <div class="overlay">
-                            <p>Proyecto 1</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
+                            <p>Team Zaios</p>
+                            <a href="https://github.com/zaios-inc" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -160,15 +161,10 @@
                     <div class="project">
                         <img src="img/proyecto2.png" alt="Primer proyecto">
                         <div class="overlay">
-                            <p>Proyecto 2</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
+                            <p>cv-generator</p>
+                            <a href="https://github.com/AFOP/cv-generator" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -177,15 +173,10 @@
                     <div class="project">
                         <img src="img/proyecto3.png" alt="Primer proyecto">
                         <div class="overlay">
-                            <p>Proyecto 3</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
+                            <p>Laravel</p>
+                            <a href="https://github.com/AFOP/laravel" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -194,15 +185,10 @@
                     <div class="project">
                         <img src="img/proyecto4.png" alt="Primer proyecto">
                         <div class="overlay">
-                            <p>Proyecto 4</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
+                            <p>Python</p>
+                            <a href="https://github.com/AFOP/Proyectos" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -211,113 +197,57 @@
                     <div class="project">
                         <img src="img/proyecto5.png" alt="Primer proyecto">
                         <div class="overlay">
-                            <p>Proyecto 5</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
+                            <p>C</p>
+                            <a href="https://github.com/AFOP/monty" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!--Project 6-->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="project">
-                        <img src="img/proyecto6.png" alt="Primer proyecto">
-                        <div class="overlay">
-                            <p>Proyecto 6</p>
-                            <div class="icons-container">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-github"></i>
-                                </a>
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="bi bi-laptop"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
-        <button type="button" class="btn btn-info">
-            Ver más proyectos
-            <i class="bi bi-arrow-right-circle-fill"></i>
-        </button>
-        </a>
-    </section>
-    <!--Articulos-->
-    <section class="articles justify-content-start">
-        <h2 class="section-title text-dark">Articulos</h2>
-        <div class="card">
-            <div class="card-header">
-                Más recientes
-            </div>
-            <ul class="list-group list-group-flush">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">El decorador @property, como usuarlo y sus ventajas</li>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Python tutorial - ciclos while</li>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">El decorador @property, como usuarlo y sus ventajas</li>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Python tutorial - ciclos while</li>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">El decorador @property, como usuarlo y sus ventajas</li>
-                </a>
-            </ul>
-        </div>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
-        <button type="button" class="btn btn-info">
-            Ver más artículos
-            <i class="bi bi-arrow-right-circle-fill"></i>
-        </button>
+        <a href="https://github.com/AFOP" target="_blank" rel="noopener noreferrer"></a>
+            <button type="button" class="btn btn-dark">
+                Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
         </a>
     </section>
     <!--Testimonials-->
-    <section id="testimonials" class="testimonials section-light">
-        <h2 class="section-title">Testitmonios</h2>
-        <h3 class="section-description">Estos son algunos de los testimonios</h3>
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Referencias</h2>
+        <h3 class="section-description">Estas son algunas referencias de familiares y jefes</h3>
         <!--Carousel-->
         <div id="testimonials-carousel" class="carousel carousel-dark slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container">
                         <img class="testimonials-img rounded-circle" src="img/cliente1.svg" alt="testimonio cliente 1">
-                        <p class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
-                            congue justo. Vestibulum gravida, felis eget malesuada lobortis</p>
+                        <p class="testimonials-text">Primo y referencia familiar como médico pediatra en la clinica farallones de Cali</p>
                         <div class="testimonials-info">
-                            <p class="client">Cliente 1</p>
-                            <p class="post">Gerente de proyectos en desarrollo Web</p>
+                            <p class="client">Olmer Alexander Pantoja Rodríguez</p>
+                            <p class="post">Médico Pediatra</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
-                        <img class="testimonials-img rounded-circle" src="img/cliente2.svg" alt="testimonio cliente 2">
-                        <p class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
-                            congue justo. Vestibulum gravida, felis eget malesuada lobortis</p>
+                        <img class="testimonials-img rounded-circle" src="img/cliente1.svg" alt="testimonio cliente 2">
+                        <p class="testimonials-text">Rector del colegio Valparaíso en el municipio de San Lorenzo - Nariño</p>
                         <div class="testimonials-info">
-                            <p class="client">Cliente 2</p>
-                            <p class="post">Gerente de proyectos en desarrollo Web</p>
+                            <p class="client">Segundo Ricaurte</p>
+                            <p class="post">Rector</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
-                        <img class="testimonials-img rounded-circle" src="img/cliente3.svg" alt="testimonio cliente 3">
-                        <p class="testimonials-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
-                            congue justo. Vestibulum gravida, felis eget malesuada lobortis</p>
+                        <img class="testimonials-img rounded-circle" src="img/cliente1.svg" alt="testimonio cliente 3">
+                        <p class="testimonials-text">Director de la dirección administrativa de cultura del departamento de Nariño</p>
                         <div class="testimonials-info">
-                            <p class="client">Cliente 3</p>
-                            <p class="post">Gerente de proyectos en desarrollo Web</p>
+                            <p class="client">Milton Portilla</p>
+                            <p class="post">Director de Cultura</p>
                         </div>
                     </div>
                 </div>
@@ -335,13 +265,12 @@
         </div>
     </section>
     <!--Ubication-->
-    <section class="articles justify-content-start">
+    <section class="articles justify-content-start section-light">
         <h2 class="section-title text-dark">Ubicación</h2>
         <div class="map container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15954.619449057107!2d-77.1600089!3d1.3837161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1679077251031!5m2!1ses!2sco"
-                class="map-img" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                class="map-img" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     <!--Contact-->
@@ -350,10 +279,10 @@
             <div class="container text-center rectangle d-flex justify-content-evenly">
                 <div class="row">
                     <div class="col-12 col-md-4 section-title">
-                        ¡Hablemos!
+                        ¡Contactame!
                     </div>
                     <div class="col-12 col-md-4 description">
-                        Contactame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+                        Pudes contactarme para el desarrollo de proyectos relacionados con programación.
                     </div>
                     <div class="col-12 col-md-4 description">
                         <a href="mailto:880204.afop@gmail.com">
@@ -369,23 +298,23 @@
     </section>
     <!--Footer-->
     <footer class="section-dark d-flex flex-column align-items-center justify-content-center">
-        <img class="footer-logo" src="img/icono-blanco.svg" alt="Logo de portafolio">
-        <p class="footer-text">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
+        <h1 class="text-light">AFOP</h1>
+        <p class="footer-text text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
         <div class="social-media-icons d-flex flex-wrap align-items-center justify-content-center">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/AFOP" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-twitter"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AFOP" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-github"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https:www.linkedin.com/in/andresocana-desarrollador" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-linkedin"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-envelope"></i>
             </a>
         </div>
-        <div class="author-d">Creado por Jane Doe (2022) &#169;</div>
+        <div class="author-d">Creado por AFOP (2023) &#169;</div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
